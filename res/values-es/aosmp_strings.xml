@@ -31,4 +31,14 @@
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="press_color_to_apply">Presione sobre el color de abajo para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Por defecto</string>
+
 </resources>
