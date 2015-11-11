@@ -32,6 +32,7 @@
     <string name="doubletap_title">Double tap</string>
     <string name="statusbar_icons_title">Icons</string>
     <string name="notch_title">Notch</string>
+    <string name="qs_actions_title">QS actions</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -136,4 +137,14 @@
     <string name="theme_accent_picker_default">Default</string>
     <string name="accent_picker_material_colors">Material palette</string>
     <string name="accent_picker_custom_colors">User requested</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+    <string name="quick_pulldown_always">Always</string>
+	
 </resources>
