@@ -18,6 +18,12 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+		android:key="traffic_settings"
+		android:title="@string/traffic_category"
+		android:summary="@string/network_traffic_state_title"
+		android:fragment="com.aosmp.settings.fragments.TrafficSettings" />
+
 	<Preference
 		android:key="clock_settings"
 		android:title="@string/clock_style_category_title"
