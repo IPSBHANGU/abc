@@ -351,4 +351,8 @@
     <string name="powermenu_users">Usuarios</string>
     <string name="powermenu_logout">Cerrar sesión</string>
 
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Visualizador de música</string>
+    <string name="lockscreen_visualizer_summary">Habilita el visualizador en la pantalla de bloqueo</string>
+
 </resources>

@@ -357,4 +357,8 @@
     <string name="powermenu_users">Users</string>
     <string name="powermenu_logout">Logout</string>
 
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Music visualizer</string>
+    <string name="lockscreen_visualizer_summary">Toggles visualizer display on lockscreen</string>
+
 </resources>
