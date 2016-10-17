@@ -35,6 +35,12 @@
        android:fragment="com.aosmp.settings.fragments.BatteryStyle"
        android:title="@string/battery_style_title"
        android:summary="@string/battery_style_summary" />
+       
+    <Preference
+        android:key="carrierlabel_settings"
+        android:title="@string/carrier_category"
+		android:summary="@string/carrier_label_settings_summary"
+        android:fragment="com.aosmp.settings.fragments.CarrierSettings" />       
 
 	<PreferenceCategory
 		android:key="statusbar_icons_category"
