@@ -75,4 +75,11 @@
         android:summary="@string/lockscreen_qs_disabled_summary"
         android:defaultValue="false" />
 
+
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_running_services_toggle"
+        android:title="@string/qs_running_services_title"
+        android:summary="@string/qs_running_services_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
