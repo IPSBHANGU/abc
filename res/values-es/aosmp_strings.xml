@@ -291,4 +291,22 @@
     <string name="notification_sound_vib_screen_on_title">Notificaciones ruidosas con la pantalla encendida</string>
     <string name="notification_sound_vib_screen_on_summary">Reproduce sonido y vibración para notificaciones cuando la pantalla está encendida</string>
 
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspender acciones</string>
+    <string name="screen_state_toggles_enable_title">Habilitar</string>
+    <string name="screen_state_toggles_enable_summary">Las acciones se ejecutarán en pantalla apagada. En pantalla encendida se restaurará el estado anterior.</string>
+    <string name="screen_state_toggles_mobile_title">Redes móviles</string>
+    <string name="screen_state_toggles_location_title">Ubicación</string>
+    <string name="screen_state_toggles_twog">Cambiar a 2G</string>
+    <string name="screen_state_toggles_twog_summary">El modo de red cambiará a 2G con la pantalla apagada</string>
+    <string name="screen_state_toggles_gps">Desactivar el GPS</string>
+    <string name="screen_state_toggles_gps_summary">El servicio de localización basado en GPS se desactivará con la pantalla apagada</string>
+    <string name="screen_state_toggles_mobile_data">Deshabilitar datos móviles</string>
+    <string name="screen_state_toggles_mobile_data_summary">Los datos móviles se desactivarán con la pantalla apagada</string>
+    <string name="screen_state_off_delay_title">Retraso de acciones de apagado</string>
+    <string name="screen_state_off_delay_summary">Número de segundos a esperar antes de realizar acciones después de apagar la pantalla</string>
+    <string name="screen_state_on_delay_title">Retraso de acciones al encender pantalla</string>
+    <string name="screen_state_on_delay_summary">Número de segundos a esperar antes de realizar acciones después de encender la pantalla</string>
+
 </resources>
