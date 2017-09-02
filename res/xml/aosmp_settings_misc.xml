@@ -23,6 +23,11 @@
         android:fragment="com.aosmp.settings.fragments.WakeLockBlocker"
         android:title="@string/wakelock_blocker_title" />
 
+    <Preference
+        android:id="@+id/alarm_blocker"
+        android:fragment="com.aosmp.settings.fragments.AlarmBlocker"
+        android:title="@string/alarm_blocker" />
+
      <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
