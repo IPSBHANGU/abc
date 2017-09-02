@@ -330,4 +330,13 @@
     <string name="lockscreen_clock_selection_sammy_accent_alt_bold">Sammy con acento (alt-negrita)</string>
 	<string name="lockscreen_clock_selection_text">Texto</string>
 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Bloqueador de wakelocks</string>
+    <string name="wakelock_blocker_summary">Bloquea wakelocks del sistema</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Recargar</string>
+    <string name="wakelock_blocker_warning_title">Proceda con precaución</string>
+    <string name="wakelock_blocker_warning">El bloqueo de wakelocks puede causar inestabilidad, bloqueos o pérdida de datos</string>
+
 </resources>
