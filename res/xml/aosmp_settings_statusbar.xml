@@ -18,6 +18,13 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+		<Preference
+				android:title="@string/statusbar_items_title" >
+					<intent android:action="android.intent.action.MAIN"
+					android:targetPackage="com.android.systemui"
+					android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+		</Preference>
+
 		<com.aosmp.settings.preferences.SystemSettingSwitchPreference
 			android:key="volte_icon"
             android:title="@string/volte_icon_title"
