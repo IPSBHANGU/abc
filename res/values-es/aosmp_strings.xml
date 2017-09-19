@@ -38,6 +38,7 @@
     <string name="gesture_system_preference">Android stock</string>
     <string name="gesture_system_preference_summary">Gestos de navegación completa, deslizar para capturar pantalla, gesto de salto</string>
     <string name="brightness_slider_title">Barra de brillo</string>
+    <string name="power_menu_items_title">Iconos del menú de apagado</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -337,5 +338,17 @@
     <string name="alarm_blocker_save">Guardar</string>
     <string name="alarm_list_header">Alarmas disponibles</string>
     <string name="alarm_blocker_reload">Recargar</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_screenshot">Captura de pantalla</string>
+    <string name="powermenu_power">Encender</string>
+    <string name="powermenu_restart">Reiniciar</string>
+    <string name="powermenu_restart_recovery">Reinicio avanzado</string>
+    <string name="powermenu_airplane">Modo avión</string>
+    <string name="powermenu_settings">Ajustes</string>
+    <string name="powermenu_lockdown">Bloqueo</string>
+    <string name="powermenu_soundpanel">Panel de sonido</string>
+    <string name="powermenu_users">Usuarios</string>
+    <string name="powermenu_logout">Cerrar sesión</string>
 
 </resources>
