@@ -80,11 +80,15 @@
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_title">Volume playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
  	<!-- Volume rocker wake -->
 	<string name="volume_rocker_wake_title">Volume rocker wake</string>
 	<string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">Volume keys answer</string>
+    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
 	
 </resources>
