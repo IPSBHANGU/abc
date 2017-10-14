@@ -536,4 +536,10 @@
     <string name="button_backlight_on_touch_only_title">Botón de retroiluminación táctil</string>
     <string name="button_backlight_on_touch_only_summary">La luz de fondo de los botones solo aparecerá cuando se presionen los botones en lugar de estar todo el tiempo. El tiempo de espera aún afecta esta característica.</string>
 
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración en llamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+
 </resources>
