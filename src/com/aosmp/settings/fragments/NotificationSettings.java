@@ -50,6 +50,7 @@ import com.aosmp.settings.preferences.Utils;
  public class NotificationSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
+	private static final String INCALL_VIB_OPTIONS = "incall_vib_options";	
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
@@ -86,6 +87,11 @@ import com.aosmp.settings.preferences.Utils;
 		mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
         mForceExpanded.setChecked((Settings.System.getInt(getContentResolver(),
 	        Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+                prefSet.removePreference(incallVibCategory);
+        }
 
     }
 
