@@ -584,4 +584,8 @@
     <string name="gaming_mode_dynamic_title">Modo Gaming dinámico</string>
     <string name="gaming_mode_dynamic_summary">Cada vez que abra una aplicación y el sistema lo encuentre como un juego, se agregará automáticamente a la lista de juegos. Tenga en cuenta que esto no funciona para todas las aplicaciones de juegos.</string>
 
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicador de Roaming</string>
+    <string name="roaming_indicator_icon_summary">Muestra el indicador de roaming en el icono de señal cuando está en modo roaming</string>
+
 </resources>
