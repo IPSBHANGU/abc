@@ -48,9 +48,9 @@ import com.aosmp.settings.preferences.Utils;
 
  public class NotificationSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
+    private ListPreference mAnnoyingNotification;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,6 +72,13 @@ import com.aosmp.settings.preferences.Utils;
             prefSet.removePreference(mLedsCategory);
         }
 
+        mAnnoyingNotification = (ListPreference) findPreference("mute_annoying_notifications_threshold");
+        mAnnoyingNotification.setOnPreferenceChangeListener(this);
+        int threshold = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD,
+                0, UserHandle.USER_CURRENT);
+        mAnnoyingNotification.setValue(String.valueOf(threshold));
+
     }
 
      @Override
@@ -84,8 +91,14 @@ import com.aosmp.settings.preferences.Utils;
         super.onResume();
     }
 
-     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    @Override
+	public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference.equals(mAnnoyingNotification)) {
+            int mode = Integer.parseInt(((String) newValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, mode, UserHandle.USER_CURRENT);
+            return true;
+        }
         return false;
     }
 }
