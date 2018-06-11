@@ -86,6 +86,12 @@
         android:summary="@string/battery_fully_charged_notif_summary"
         android:defaultValue="false" />
 
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+            android:title="@string/force_expanded_notifications_title"
+            android:summary="@string/force_expanded_notifications_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

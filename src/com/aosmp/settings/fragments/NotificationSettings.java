@@ -30,6 +30,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
@@ -48,9 +49,12 @@ import com.aosmp.settings.preferences.Utils;
 
  public class NotificationSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
+
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
     private ListPreference mAnnoyingNotification;
+    private SwitchPreference mForceExpanded;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,6 +83,10 @@ import com.aosmp.settings.preferences.Utils;
                 0, UserHandle.USER_CURRENT);
         mAnnoyingNotification.setValue(String.valueOf(threshold));
 
+		mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
+        mForceExpanded.setChecked((Settings.System.getInt(getContentResolver(),
+	        Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
+
     }
 
      @Override
@@ -97,6 +105,11 @@ import com.aosmp.settings.preferences.Utils;
             int mode = Integer.parseInt(((String) newValue).toString());
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, mode, UserHandle.USER_CURRENT);
+            return true;
+            } else if (preference == mForceExpanded) {
+				boolean checked = ((SwitchPreference)preference).isChecked();
+				Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FORCE_EXPANDED_NOTIFICATIONS, checked ? 1 : 0);
             return true;
         }
         return false;

@@ -540,4 +540,8 @@
     <string name="less_boring_heads_up_title">Menos notificaciones flotantes aburridas</string>
     <string name="less_boring_heads_up_summary">Solo muestra las notificaciones flotantes del marcador o aplicación de mensajería</string>
 
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Notificaciones expandidas</string>
+    <string name="force_expanded_notifications_summary">Forzar a las aplicaciones que soporten notificaciones expandidas</string>
+
 </resources>
