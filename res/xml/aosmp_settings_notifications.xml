@@ -18,6 +18,12 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="battery_fully_charged_notif"
+        android:title="@string/battery_fully_charged_notif_title"
+        android:summary="@string/battery_fully_charged_notif_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="light_category"
         android:title="@string/batterylight_title">

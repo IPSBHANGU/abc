@@ -283,4 +283,8 @@
     <string name="qs_running_services_title">Icono de servicios en ejecución</string>
     <string name="qs_running_services_summary">Habilitar el icono de servicios en ejecución en el pie de los ajustes rápidos</string>
 
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Batería completamente cargada</string>
+    <string name="battery_fully_charged_notif_summary">Mostrar una notificación cuando la batería esté completamente cargada</string>
+
 </resources>
