@@ -41,4 +41,8 @@
     <string name="set">Set</string>
     <string name="color_default">Por defecto</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informacion de carga en la pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Visualice la corriente y el voltaje maximo del cargador en la pantalla de bloqueo mientras se carga</string>
+
 </resources>
