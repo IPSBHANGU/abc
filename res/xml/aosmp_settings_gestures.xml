@@ -20,6 +20,12 @@
 		android:title="@string/gestures_category_title">
 
 		<Preference
+			android:key="op_gesture_settings"
+			android:title="@string/op_settings_title"
+			android:summary="@string/op_settings_summary"
+			android:fragment="com.aosmp.settings.fragments.OmniGestureSettings" />
+
+		<Preference
 			android:key="gesture_settings"
 			android:title="@string/gesture_system_preference"
 			android:fragment="com.android.settings.gestures.GestureSettings"
