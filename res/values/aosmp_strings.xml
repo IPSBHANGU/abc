@@ -26,6 +26,9 @@
     <string name="volume_title">Volume keys</string>
     <string name="notifications_title">Notifications</string>
 
+    <!-- Others -->
+    <string name="gesture_system_preference">AOSP gestures</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
