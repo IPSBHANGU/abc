@@ -18,11 +18,23 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_qs_disabled"
-        android:title="@string/lockscreen_qs_disabled_title"
-        android:summary="@string/lockscreen_qs_disabled_summary"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:title="@string/brightness_slider_title">
+
+    <com.aosmp.settings.preferences.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/qs_show_brightness_title"
+        android:summary="@string/qs_show_brightness_summary"
+        android:defaultValue="true" />
+
+    <com.aosmp.settings.preferences.SecureSettingSwitchPreference
+        android:key="qs_brightness_position_bottom"
+        android:title="@string/qs_brightness_position_bottom_title"
+        android:summary="@string/qs_brightness_position_bottom_summary"
+        android:defaultValue="false"
+        android:dependency="qs_show_brightness" />
+
+    </PreferenceCategory> 
 
     <PreferenceCategory
         android:title="@string/qs_actions_title">
@@ -42,5 +54,11 @@
             android:persistent="false" />
 
     </PreferenceCategory> 
+
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_qs_disabled"
+        android:title="@string/lockscreen_qs_disabled_title"
+        android:summary="@string/lockscreen_qs_disabled_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
