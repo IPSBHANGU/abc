@@ -352,8 +352,12 @@
     <string name="powermenu_logout">Cerrar sesión</string>
 
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Visualizador de música</string>
-    <string name="lockscreen_visualizer_summary">Habilita el visualizador en la pantalla de bloqueo</string>
+    <string name="lockscreen_visualizer_category">Visualizador</string>
+    <string name="lockscreen_visualizer_title">Habilitar visualizador de pantalla de bloqueo</string>
+    <string name="lockscreen_visualizer_summary">Mostrar el visualizador en la pantalla de bloqueo cuando se reproduce música</string>
+    <string name="lockscreen_visualizer_enable_custom">Usar color personalizado</string>
+    <string name="lockscreen_visualizer_enable_custom_summary">Use un color preestablecido en lugar del color generado</string>
+    <string name="lockscreen_visualizer_custom_color">Color del visualizador</string>
 
     <!-- Ambient visualizer -->
     <string name="ambient_visualizer_title">Visualizador de música en la pantalla ambiente</string>

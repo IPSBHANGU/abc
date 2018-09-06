@@ -40,7 +40,7 @@
     <Preference
         android:key="lock_visualizer"
         android:fragment="com.aosmp.settings.fragments.LockVisualizer"
-        android:title="@string/lock_visualizer_title" />
+        android:title="@string/lockscreen_visualizer_category" />
 
 	<com.aosmp.settings.preferences.SecureSettingSwitchPreference
 		android:key="face_auto_unlock"
