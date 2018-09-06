@@ -15,8 +15,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:layout="@layout/tab_ui"
-    android:title="@string/lockscreen_visualizer_title" >
+    android:title="@string/lockscreen_visualizer_category" >
 
     <com.aosmp.settings.preferences.SecureSettingSwitchPreference
         android:key="ambient_visualizer"
@@ -30,5 +29,19 @@
         android:title="@string/lockscreen_visualizer_title"
         android:summary="@string/lockscreen_visualizer_summary"
         android:defaultValue="false"/>
+
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="lock_screen_visualizer_use_custom_color"
+        android:title="@string/lockscreen_visualizer_enable_custom"
+        android:summary="@string/lockscreen_visualizer_enable_custom_summary"
+        android:dependency="lockscreen_visualizer"
+        android:defaultValue="false" />
+
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="lock_screen_visualizer_custom_color"
+        android:title="@string/lockscreen_visualizer_custom_color"
+        android:dependency="lock_screen_visualizer_use_custom_color"
+        android:defaultValue="0xffffffff"
+        android:dialogTitle="@string/lockscreen_visualizer_custom_color" />
 
 </PreferenceScreen>
