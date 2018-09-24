@@ -24,4 +24,10 @@
             android:summary="@string/advanced_reboot_summary"
             android:defaultValue="false" />
 
+        <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+			android:key="powermenu_lockscreen"
+			android:title="@string/powermenu_lockscreen_title"
+			android:summary="@string/powermenu_lockscreen_summary"
+			android:defaultValue="false" />
+
 </PreferenceScreen>
