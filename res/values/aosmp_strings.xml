@@ -60,5 +60,9 @@
 	<!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 	
 </resources>
