@@ -525,4 +525,15 @@
     <string name="heads_up_time_out_8sec">8 segundos</string>
     <string name="heads_up_time_out_10sec">10 segundos</string>
 
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Temporizador de ocultamiento</string>
+    <string name="heads_up_snooze_summary_one_minute">Al deslizar hacia arriba en las notificaciones flotantes de la aplicación aplazará la aparición de estas durante 1 minuto</string>
+    <string name="heads_up_snooze_summary">>Al deslizar hacia arriba en las notificaciones flotantes de la aplicación aplazará la aparición de estas por <xliff:g id="number">%d</xliff:g> minutos</string>
+    <string name="heads_up_snooze_disabled_summary">El temporizador esta desactivado</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minutos</string>
+    <string name="heads_up_snooze_10min">10 minutos</string>
+    <string name="heads_up_snooze_15min">15 minutos</string>
+    <string name="heads_up_snooze_20min">20 minutos</string>
+
 </resources>
