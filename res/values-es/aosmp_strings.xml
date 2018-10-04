@@ -515,4 +515,14 @@
     <string name="dialog_delete_title">Eliminar</string>
     <string name="dialog_delete_message">¿Eliminar el item seleccionado?</string>
 
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Tiempo de visualización</string>
+    <string name="heads_up_time_out_summary">Las notificaciones flotantes seran visualizadas por <xliff:g id="number">%d</xliff:g> segundos</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_5sec">5 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
+
 </resources>
