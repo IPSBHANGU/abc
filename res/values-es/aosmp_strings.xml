@@ -502,4 +502,15 @@
     <string name="ticker_animation_mode_scroll">Deslizar</string>
     <string name="ticker_tick_duration_title">Duración de la notificación ticker</string>
 
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Notificaciones flotantes</string>
+    <string name="summary_heads_up_enabled">Las notificaciones estan habilitadas</string>
+    <string name="summary_heads_up_disabled">Las notificaciones estan deshabilitadas</string>
+    <string name="add_heads_up_package">Agregar aplicación</string>
+    <string name="add_heads_up_stoplist_summary">Desactivar las notificaciones flotantes en estas aplicaciones</string>
+    <string name="heads_up_stoplist_title">Lista de aplicaciones</string>
+    <string name="profile_choose_app">Elegir aplicación</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <string name="dialog_delete_message">¿Eliminar el item seleccionado?</string>
+
 </resources>
