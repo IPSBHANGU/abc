@@ -39,12 +39,19 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.aosmp.settings.preferences.CustomSeekBarPreference;
+import android.provider.SearchIndexableResource;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
 
 import com.android.settings.smartnav.ActionFragment;
 import com.android.internal.utils.ActionConstants;
 import com.android.internal.utils.ActionUtils;
 
-	public class ButtonSettings extends ActionFragment implements Preference.OnPreferenceChangeListener{
+	public class ButtonSettings extends ActionFragment implements Preference.OnPreferenceChangeListener, Indexable{
     
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 	private static final String HWKEY_DISABLE = "hardware_keys_disable";
@@ -231,4 +238,29 @@ import com.android.internal.utils.ActionUtils;
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.AOSMP;
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.aosmp_settings_button;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
+
 }

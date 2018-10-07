@@ -66,6 +66,10 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
+import android.provider.SearchIndexableResource;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -74,7 +78,7 @@ import java.util.Map;
 import java.util.List;
 import com.android.internal.util.aosmp.aosmpUtils;
 
-public class RecentsSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, DialogInterface.OnDismissListener {
+public class RecentsSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, DialogInterface.OnDismissListener, Indexable {
 
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
     private static final String RECENTS_TYPE = "recents_layout_style";
@@ -346,4 +350,28 @@ public class RecentsSettings extends SettingsPreferenceFragment implements OnPre
         }
         return false;
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.aosmp_settings_recents;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
