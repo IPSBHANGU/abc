@@ -365,4 +365,9 @@
     <string name="ambient_visualizer_title">Visualizador de música en la pantalla ambiente</string>
     <string name="ambient_visualizer_summary">Muestra las barras de visualización también en la pantalla ambiental (pero menos opacas)</string>
 
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Estilo de recientes</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+
 </resources>
