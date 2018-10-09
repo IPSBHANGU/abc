@@ -19,7 +19,7 @@
     <string name="lockscreen_title">Lock screen</string>
     <string name="gestures_title">Gestures</string>
     <string name="misc_title">Miscellaneous</string>
-    <string name="navbar_title">Navigation bar</string>
+    <string name="navigation_bar_title">Navigation bar</string>
     <string name="powermenu_title">Power menu</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="statusbar_title">Status bar</string>

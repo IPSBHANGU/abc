@@ -38,19 +38,19 @@
             android:fragment="com.aosmp.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
+        <!-- Navigation -->
+        <Preference
+            android:key="navigation_category"
+            android:title="@string/navigation_bar_title"
+            android:fragment="com.android.settings.smartnav.NavigationBarSettings"
+            android:icon="@drawable/ic_settings_navigation"/>
+
         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title" 
             android:fragment="com.aosmp.settings.fragments.GesturesSettings"
             android:icon="@drawable/ic_settings_gesture"/>
-
-        <!-- Navigation Bar -->
-        <Preference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title" 
-            android:fragment="com.aosmp.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Lock Screen -->
         <Preference
