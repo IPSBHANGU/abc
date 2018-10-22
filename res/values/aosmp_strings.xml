@@ -52,5 +52,8 @@
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    
+
+ 	<!-- Show VoLTE icon on statusbar -->
+	<string name="volte_icon_title">VoLTE icon</string>
+	<string name="volte_icon_summary">Display VoLTE icon</string>
 </resources>
