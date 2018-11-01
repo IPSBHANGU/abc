@@ -144,6 +144,7 @@
     <string name="theme_accent_picker_default">Default</string>
     <string name="accent_picker_material_colors">Material palette</string>
     <string name="accent_picker_custom_colors">User requested</string>
+	<string name="qs_styles_dialog_title">Select a QS tile style</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
@@ -308,5 +309,7 @@
     <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
     <string name="screen_state_on_delay_title">Screen On actions delay</string>
     <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+
+
 
 </resources>
