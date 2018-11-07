@@ -491,4 +491,13 @@
     <string name="use_old_mobiletype_title">Usar el estilo antiguo del indiador de señal</string>
     <string name="use_old_mobiletype_summary">Fusionar cobertura y tipo de red</string>
 
+    <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Notificaciones ticker</string>
+    <string name="status_bar_show_ticker_title">Habilitar las notificaciones</string>
+    <string name="status_bar_show_ticker_summary">Vista previa de notificaciones en la barra de estado</string>
+    <string name="ticker_animation_mode_title">Tipo de animacion</string>
+    <string name="ticker_animation_mode_alpha_fade">Desvanecerse lentamente</string>
+    <string name="ticker_animation_mode_scroll">Deslizar</string>
+    <string name="ticker_tick_duration_title">Duración de la notificación ticker</string>
+
 </resources>

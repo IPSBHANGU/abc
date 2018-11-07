@@ -18,6 +18,50 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="statusbar_ticker"
+        android:title="@string/status_bar_ticker_title">
+
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_show_ticker"
+            android:title="@string/status_bar_show_ticker_title"
+            android:summary="@string/status_bar_show_ticker_summary"
+            android:defaultValue="false" />
+
+    <com.aosmp.settings.preferences.SystemSettingIntListPreference
+            android:key="status_bar_ticker_animation_mode"
+            android:title="@string/ticker_animation_mode_title"
+            android:entries="@array/ticker_animation_mode_entries"
+            android:entryValues="@array/ticker_animation_mode_values"
+            android:defaultValue="0"
+            android:dependency="status_bar_show_ticker" />
+
+    <com.aosmp.settings.preferences.SystemSettingSeekBarPreference
+            android:key="status_bar_ticker_tick_duration"
+            android:title="@string/ticker_tick_duration_title"
+            android:min="500"
+            android:max="10000"
+            android:defaultValue="3000"
+            havocsettings:interval="100"
+            android:dependency="status_bar_show_ticker" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/batterylight_title">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="com.aosmp.settings.fragments.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="others_notifications"
+        android:title="@string/others_category">
+
     <com.aosmp.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"
@@ -36,15 +80,6 @@
         android:title="@string/battery_fully_charged_notif_title"
         android:summary="@string/battery_fully_charged_notif_summary"
         android:defaultValue="false" />
-
-    <PreferenceCategory
-        android:key="light_category"
-        android:title="@string/batterylight_title">
-
-     <Preference
-         android:key="battery_charging_light"
-         android:fragment="com.aosmp.settings.fragments.BatteryLightSettings"
-         android:title="@string/battery_light_settings" />
 
     </PreferenceCategory>
 
