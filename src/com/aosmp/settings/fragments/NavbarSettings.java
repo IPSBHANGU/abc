@@ -17,44 +17,35 @@
 
 package com.aosmp.settings.fragments;
 
-import java.util.ArrayList;
-
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
-import android.content.Intent;
+import android.content.ContentResolver;
+import android.content.res.Resources;
+import android.os.SystemProperties;
 import android.os.Bundle;
-import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
-import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 
-import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.logging.MetricsLogger;
-import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.aosmp.aosmpUtils;
+
 import com.android.settings.R;
+import com.android.settings.aosmp.CustomSettingsPreferenceFragment;
 
-public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class NavbarSettings extends CustomSettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
+    private static final String NAVIGATION_BAR_ENABLED = "navigation_bar_enabled";
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.aosmp_settings_navigation);
+        addCustomPreference(findPreference(NAVIGATION_BAR_ENABLED), SECURE_TWO_STATE,
+                getActivity().getResources().getBoolean(
+                com.android.internal.R.bool.config_showNavigationBar) ? 1 : 0);
 
     }
 
-    @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-
         return false;
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSMP;
     }
 }
