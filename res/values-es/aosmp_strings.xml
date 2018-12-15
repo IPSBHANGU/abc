@@ -536,4 +536,8 @@
     <string name="heads_up_snooze_15min">15 minutos</string>
     <string name="heads_up_snooze_20min">20 minutos</string>
 
+	<!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Menos notificaciones flotantes aburridas</string>
+    <string name="less_boring_heads_up_summary">Solo muestra las notificaciones flotantes del marcador o aplicación de mensajería</string>
+
 </resources>
