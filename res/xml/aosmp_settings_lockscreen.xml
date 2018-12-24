@@ -18,29 +18,6 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="lock_visualizer"
-        android:fragment="com.aosmp.settings.fragments.LockVisualizer"
-        android:title="@string/lockscreen_visualizer_category" />
-
-	<com.aosmp.settings.preferences.SecureSettingSwitchPreference
-		android:key="face_auto_unlock"
-		android:title="@string/face_auto_unlock_title"
-		android:summary="@string/face_auto_unlock_summary"
-		android:defaultValue="false" />
-
-	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_battery_info"
-        android:title="@string/lockscreen_battery_info_title"
-        android:summary="@string/lockscreen_battery_info_summary"
-        android:defaultValue="true" />
-	
-	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_media_metadata"
-        android:title="@string/media_art_title"
-        android:summary="@string/media_art_summary"
-        android:defaultValue="true" />
-
 	<PreferenceCategory
 		android:key="lockscreen_clock_category"
 		android:title="@string/lockscreen_clock_category">
@@ -65,5 +42,43 @@
         android:defaultValue="true" />
 
 	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="weather_category"
+		android:title="@string/weather_category">
+
+    <com.aosmp.settings.preferences.SystemSettingListPreference
+        android:key="weather_lockscreen_unit"
+        android:dialogTitle="@string/weather_unit"
+        android:title="@string/weather_unit"
+        android:summary="%s"
+        android:entries="@array/weather_unit_entries"
+        android:entryValues="@array/weather_unit_values"
+        android:defaultValue="0" />
+
+	</PreferenceCategory>
+
+    <Preference
+        android:key="lock_visualizer"
+        android:fragment="com.aosmp.settings.fragments.LockVisualizer"
+        android:title="@string/lockscreen_visualizer_category" />
+
+	<com.aosmp.settings.preferences.SecureSettingSwitchPreference
+		android:key="face_auto_unlock"
+		android:title="@string/face_auto_unlock_title"
+		android:summary="@string/face_auto_unlock_summary"
+		android:defaultValue="false" />
+
+	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+	
+	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_media_metadata"
+        android:title="@string/media_art_title"
+        android:summary="@string/media_art_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>
