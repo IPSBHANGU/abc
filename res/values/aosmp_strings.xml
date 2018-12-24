@@ -42,6 +42,7 @@
     <string name="power_menu_items_title">Power menu icons</string>
     <string name="lockscreen_clock_category">Lockscreen clock widget</string>
     <string name="oreo_recents_category">Oreo recents style</string>
+    <string name="weather_category">Weather indicator</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -421,5 +422,10 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Sensor block per-package</string>
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+
+    <!-- Weather -->
+    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 
 </resources>

@@ -42,6 +42,7 @@
     <string name="power_menu_items_title">Iconos del menú de apagado</string>
     <string name="lockscreen_clock_category">Reloj en la pantalla de bloqueo</string>
     <string name="oreo_recents_category">Recientes estilo Oreo</string>
+    <string name="weather_category">Indicador del clima</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -421,5 +422,10 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Bloqueo de sensores por paquete</string>
     <string name="sensor_block_summary">Bloquea el acceso a ciertos sensores de algunas aplicaciones para ahorrar batería</string>
+
+    <!-- Weather -->
+    <string name="weather_unit">Unidad de temperatura</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 
 </resources>
