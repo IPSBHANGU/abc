@@ -310,4 +310,10 @@
     <string name="screen_state_on_delay_title">Retraso de acciones al encender pantalla</string>
     <string name="screen_state_on_delay_summary">Número de segundos a esperar antes de realizar acciones después de encender la pantalla</string>
 
+    <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Widget de reloj</string>
+    <string name="lockscreen_clock_summary">Mostrar el widget del reloj en la pantalla de bloqueo</string>
+    <string name="lockscreen_info_title">Items debajo del reloj</string>
+    <string name="lockscreen_info_summary">Muestra la fecha, el clima, las alarmas y el zen en la pantalla de bloqueo</string>
+
 </resources>
