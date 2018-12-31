@@ -316,4 +316,13 @@
     <string name="lockscreen_info_title">Items debajo del reloj</string>
     <string name="lockscreen_info_summary">Muestra la fecha, el clima, las alarmas y el zen en la pantalla de bloqueo</string>
 
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Estilo de reloj</string>
+    <string name="lockscreen_clock_selection_digital">Predeterminado</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (negrita)</string>
+    <string name="lockscreen_clock_selection_analog">Análogo</string>
+    <string name="lockscreen_clock_selection_du">Análogo (DU)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
+
 </resources>
