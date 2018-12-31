@@ -355,4 +355,8 @@
     <string name="lockscreen_visualizer_title">Visualizador de música</string>
     <string name="lockscreen_visualizer_summary">Habilita el visualizador en la pantalla de bloqueo</string>
 
+    <!-- Ambient visualizer -->
+    <string name="ambient_visualizer_title">Visualizador de música en la pantalla ambiente</string>
+    <string name="ambient_visualizer_summary">Muestra las barras de visualización también en la pantalla ambiental (pero menos opacas)</string>
+
 </resources>
