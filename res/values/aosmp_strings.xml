@@ -399,6 +399,6 @@
     <string name="recents_go">Android Go</string>
 
     <!-- App Ops -->
-    <string name="app_ops_category">App Ops</string>
+    <string name="app_ops_category">Privacy Guard</string>
 
 </resources>
