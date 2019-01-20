@@ -23,12 +23,11 @@
     <string name="powermenu_title">Power menu</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="statusbar_title">Status bar</string>
-    <string name="volume_title">Volume keys</string>
+    <string name="volume_title">Volume</string>
     <string name="notifications_title">Notifications</string>
 
     <!-- Others -->
     <string name="gestures_category_title">Gestures preference</string>
-    <string name="volkey_title">Volume keys</string>
     <string name="doubletap_title">Double tap</string>
     <string name="statusbar_icons_title">Icons</string>
     <string name="notch_title">Notch</string>
@@ -264,5 +263,17 @@
     <string name="network_traffic_location_summary">Place indicator in either status bar or expanded header (recommended for displays with notch cutouts)</string>
     <string name="network_traffic_statusbar">Status bar</string>
 	<string name="network_traffic_header">Expanded header</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Volume steps</string>
+    <string name="volume_steps_summary">Customize volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Media</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
 
 </resources>

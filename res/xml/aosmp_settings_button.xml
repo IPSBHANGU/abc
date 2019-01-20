@@ -19,8 +19,8 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
 	<PreferenceCategory
-		android:key="volkey_category"
-		android:title="@string/volkey_title">
+		android:key="volume_category"
+		android:title="@string/volume_title">
 
 	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
@@ -39,6 +39,12 @@
 			android:title="@string/volume_answer_call_title"
 			android:summary="@string/volume_answer_call_summary"
 			android:defaultValue="false" />
+
+     <Preference
+			android:key="vol_steps"
+			android:fragment="com.aosmp.settings.fragments.VolumeStepsFragment"
+			android:title="@string/volume_steps_fragment_title"
+			android:summary="@string/volume_steps_summary" />
 
 	</PreferenceCategory>
 
