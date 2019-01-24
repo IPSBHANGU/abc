@@ -19,6 +19,12 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
+        android:key="gaming_mode"
+        android:fragment="com.aosmp.settings.fragments.GamingMode"
+        android:icon="@drawable/ic_gaming_mode"
+        android:title="@string/gaming_mode_title" />
+
+    <Preference
         android:key="wakelock_blocker"
         android:fragment="com.aosmp.settings.fragments.WakeLockBlocker"
         android:title="@string/wakelock_blocker_title" />
@@ -28,12 +34,12 @@
         android:fragment="com.aosmp.settings.fragments.AlarmBlocker"
         android:title="@string/alarm_blocker_title" />
 
-     <Preference
+    <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
         android:fragment="com.aosmp.settings.fragments.ScreenStateToggles" />
 
-     <Preference
+    <Preference
         android:key="privacy_guard_manager"
         android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
         android:title="@string/app_ops_category" />

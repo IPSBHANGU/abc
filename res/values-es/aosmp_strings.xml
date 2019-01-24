@@ -555,4 +555,27 @@
     <string name="lockscreen_date_selection_str_border_accent">Oscuro con bordes acentuados</string>
     <string name="lockscreen_date_selection_str_border_gradient">Oscuro con bordes degradados</string>    
 
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Modo Gaming</string>
+    <string name="gaming_mode_summary">Personaliza las preferencias del modo Gaming</string>
+    <string name="gaming_mode_app_picker_title">Encender automáticamente para estas aplicaciones</string>
+    <string name="add_gaming_mode_package_title">Agregar aplicaciones para el modo Gaming</string>
+    <string name="add_gaming_mode_package_summary">El modo Gaming se activará automáticamente para las aplicaciones seleccionadas.</string>
+    <string name="gaming_mode_speaker_title">Responde llamadas a través del altavoz</string>
+    <string name="gaming_mode_speaker_summary">Enruta las llamadas entrantes al altavoz cuando el modo Gaming está activado.</string>
+    <string name="gaming_mode_headsup_title">Bloquear notificaciones</string>
+    <string name="gaming_mode_headsup_summary">Bloquee todos los mensajes de advertencia excepto las llamadas.</string>
+    <string name="gaming_mode_hardware_keys_title">Bloqueo de botones</string>
+    <string name="gaming_mode_hardware_keys_summary">Desactiva los botones de hardware cuando el modo Gaming está activado.</string>
+    <string name="gaming_mode_brightness_title">Desactivar brillo automático</string>
+    <string name="gaming_mode_brightness_summary">Bloquee el brillo de la pantalla cuando el modo Gaming esté activado.</string>
+    <string name="gaming_mode_dnd_title">Modo vibracion</string>
+    <string name="gaming_mode_dnd_summary">Ingrese el teléfono en modo de vibración cuando el modo Gaming esté activado.</string>
+    <string name="gaming_mode_max_media_title">Volumen de medios</string>
+    <string name="gaming_mode_max_media_summary">Maximice el volumen de medios cuando el modo Gaming esté activado.</string>
+    <string name="gaming_mode_dynamic_title">Modo Gaming dinámico</string>
+    <string name="gaming_mode_dynamic_summary">Habilita automáticamente el modo de juego.</string>
+    <string name="dynamic_mode_footer">Cada vez que abra una aplicación y el sistema lo encuentre como un juego, el modo Gaming se habilitará automáticamente. Después de borrar la aplicación de los recientes, se restaurarán todas las configuraciones del usuario. Tenga en cuenta que esto no funciona para todas las aplicaciones de juegos.</string>
+    <string name="dynamic_mode_footer_dialer">Algunas funciones específicas del marcador, como "Contestar llamadas a través del altavoz" solo funcionarán con la aplicación de teléfono AOSP.</string>
+
 </resources>
