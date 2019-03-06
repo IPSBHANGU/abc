@@ -49,6 +49,12 @@
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
 
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Encender</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Apagar</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selector de color</string>
     <string name="press_color_to_apply">Presiona en el color para aplicar</string>
@@ -408,5 +414,9 @@
     <string name="volume_key_cursor_control_off">Deshabilitado</string>
     <string name="volume_key_cursor_control_on">Volumen arriba/abajo mueve el cursor hacia la izquierda/derecha</string>
     <string name="volume_key_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor hacia la derecha/izquierda</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Bloqueo de sensores por paquete</string>
+    <string name="sensor_block_summary">Bloquea el acceso a ciertos sensores de algunas aplicaciones para ahorrar batería</string>
 
 </resources>
