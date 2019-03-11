@@ -62,6 +62,12 @@
 		android:key="lockscreen_others_category"
 		android:title="@string/others_category">
 
+    <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="hide_lockscreen_status_bar"
+        android:title="@string/hide_lockscreen_status_bar_title"
+        android:summary="@string/hide_lockscreen_status_bar_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="lock_visualizer"
         android:fragment="com.aosmp.settings.fragments.LockVisualizer"
