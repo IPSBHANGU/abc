@@ -106,7 +106,7 @@ import com.android.internal.utils.ActionUtils;
 
         mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
         int currentTimeout = Settings.System.getInt(resolver,
-                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
+                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5);
         mButtonTimoutBar.setValue(currentTimeout);
         mButtonTimoutBar.setOnPreferenceChangeListener(this);
 
