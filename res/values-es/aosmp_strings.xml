@@ -307,6 +307,8 @@
     <string name="screen_state_toggles_location_title">Ubicación</string>
     <string name="screen_state_toggles_twog">Cambiar a 2G</string>
     <string name="screen_state_toggles_twog_summary">El modo de red cambiará a 2G con la pantalla apagada</string>
+    <string name="screen_state_toggles_threeg">Cambiar a 2G</string>
+    <string name="screen_state_toggles_threeg_summary">El modo de red cambiará a 3G con la pantalla apagada</string>    
     <string name="screen_state_toggles_gps">Desactivar el GPS</string>
     <string name="screen_state_toggles_gps_summary">El servicio de localización basado en GPS se desactivará con la pantalla apagada</string>
     <string name="screen_state_toggles_mobile_data">Deshabilitar datos móviles</string>
