@@ -325,6 +325,8 @@
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
     <string name="lockscreen_clock_selection_sammy_accent">Sammy con acento</string>
+    <string name="lockscreen_clock_selection_sammy_accent_bold">Sammy con acento (negrita)</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy con acento (alt)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt_bold">Sammy con acento (alt-negrita)</string>
 
 </resources>
