@@ -61,6 +61,12 @@
 			android:defaultValue="0"
 			settings:controller="com.aosmp.settings.fragments.DisplayCutoutPreferenceController" />
 
+		<Preference
+			android:key="display_cutout_force_fullscreen_settings"
+			android:title="@string/display_cutout_force_fullscreen_title"
+			android:summary="@string/display_cutout_force_fullscreen_summary"
+			android:fragment="com.aosmp.settings.fragments.DisplayCutoutForceFullscreenSettings" />
+
 	</PreferenceCategory>
 
 </PreferenceScreen>
