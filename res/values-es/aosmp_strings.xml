@@ -547,5 +547,12 @@
     <string name="lockscreen_date_selection_default">Por defecto</string>
     <string name="lockscreen_date_selection_str_box">Caja semitransparente</string>
     <string name="lockscreen_date_selection_str_round">Caja semitransparente (redonda)</string>
+    <string name="lockscreen_date_selection_str_accent">Redondeado, simple y con acento</string>
+    <string name="lockscreen_date_selection_str_accent_day">Redondeado, simple y con acento (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Redondeado, transparente y con acento</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Redondeado, transparente y con acento (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Gradiente</string>
+    <string name="lockscreen_date_selection_str_border_accent">Oscuro con bordes acentuados</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Oscuro con bordes degradados</string>    
 
 </resources>
