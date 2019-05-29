@@ -287,4 +287,8 @@
     <string name="battery_fully_charged_notif_title">Batería completamente cargada</string>
     <string name="battery_fully_charged_notif_summary">Mostrar una notificación cuando la batería esté completamente cargada</string>
 
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Notificaciones ruidosas con la pantalla encendida</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduce sonido y vibración para notificaciones cuando la pantalla está encendida</string>
+
 </resources>
