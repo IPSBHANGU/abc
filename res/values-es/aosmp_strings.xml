@@ -425,6 +425,8 @@
     <string name="sensor_block_summary">Bloquea el acceso a ciertos sensores de algunas aplicaciones para ahorrar batería</string>
 
     <!-- Weather -->
+    <string name="lock_screen_weather_title">Mostrar el clima</string>
+    <string name="lock_screen_weather_summary">Mostra el clima en la pantalla de bloqueo</string>
     <string name="weather_unit">Unidad de temperatura</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
