@@ -569,8 +569,11 @@
     <string name="gaming_mode_hardware_keys_summary">Desactiva los botones de hardware cuando el modo Gaming está activado.</string>
     <string name="gaming_mode_brightness_title">Desactivar brillo automático</string>
     <string name="gaming_mode_brightness_summary">Bloquee el brillo de la pantalla cuando el modo Gaming esté activado.</string>
-    <string name="gaming_mode_dnd_title">Modo vibracion</string>
-    <string name="gaming_mode_dnd_summary">Ingrese el teléfono en modo de vibración cuando el modo Gaming esté activado.</string>
+    <string name="gaming_mode_ringer_title">Timbre en modo Gaming</string>
+    <string name="gaming_mode_ringer_off_title">Sin cambios</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="gaming_mode_ringer_dnd_title">No Molestar</string>
+	<string name="gaming_mode_ringer_silent_title">Silencio</string>
     <string name="gaming_mode_max_media_title">Volumen de medios</string>
     <string name="gaming_mode_max_media_summary">Maximice el volumen de medios cuando el modo Gaming esté activado.</string>
     <string name="gaming_mode_dynamic_title">Modo Gaming dinámico</string>
