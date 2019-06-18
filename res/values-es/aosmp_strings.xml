@@ -574,11 +574,13 @@
     <string name="gaming_mode_ringer_vibrate_title">Vibrar</string>
     <string name="gaming_mode_ringer_dnd_title">No Molestar</string>
 	<string name="gaming_mode_ringer_silent_title">Silencio</string>
-    <string name="gaming_mode_max_media_title">Volumen de medios</string>
-    <string name="gaming_mode_max_media_summary">Maximice el volumen de medios cuando el modo Gaming esté activado.</string>
+    <string name="gaming_mode_notifications_title">Notificaciones</string>
+    <string name="gaming_mode_notifications_off_title">Deshabilitado</string>
+    <string name="gaming_mode_notifications_notif_title">Mostrar notificaciones</string>
+    <string name="gaming_mode_notifications_toast_title">Mostar notificación toast</string>
+	<string name="gaming_mode_notifications_all_title">Mostrar notificaciones basicas y toast</string>
     <string name="gaming_mode_dynamic_title">Modo Gaming dinámico</string>
-    <string name="gaming_mode_dynamic_summary">Habilita automáticamente el modo de juego.</string>
-    <string name="dynamic_mode_footer">Cada vez que abra una aplicación y el sistema lo encuentre como un juego, el modo Gaming se habilitará automáticamente. Después de borrar la aplicación de los recientes, se restaurarán todas las configuraciones del usuario. Tenga en cuenta que esto no funciona para todas las aplicaciones de juegos.</string>
+    <string name="gaming_mode_dynamic_summary">Cada vez que abra una aplicación y el sistema lo encuentre como un juego, se agregará automáticamente a la lista de juegos. Tenga en cuenta que esto no funciona para todas las aplicaciones de juegos.</string>
     <string name="dynamic_mode_footer_dialer">Algunas funciones específicas del marcador, como "Contestar llamadas a través del altavoz" solo funcionarán con la aplicación de teléfono AOSP.</string>
 
 </resources>
