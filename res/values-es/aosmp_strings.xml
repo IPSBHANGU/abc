@@ -558,6 +558,8 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Modo Gaming</string>
     <string name="gaming_mode_summary">Personaliza las preferencias del modo Gaming</string>
+    <string name="gaming_mode_master_title">Habilitar las funciones del modo Gaming</string>
+    <string name="gaming_mode_master_summary">Permitir personalizar las opciones del modo Gaming</string>    
     <string name="gaming_mode_app_picker_title">Encender automáticamente para estas aplicaciones</string>
     <string name="add_gaming_mode_package_title">Agregar aplicaciones para el modo Gaming</string>
     <string name="add_gaming_mode_package_summary">El modo Gaming se activará automáticamente para las aplicaciones seleccionadas.</string>
