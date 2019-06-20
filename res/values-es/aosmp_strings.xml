@@ -581,6 +581,5 @@
 	<string name="gaming_mode_notifications_all_title">Mostrar notificaciones basicas y toast</string>
     <string name="gaming_mode_dynamic_title">Modo Gaming dinámico</string>
     <string name="gaming_mode_dynamic_summary">Cada vez que abra una aplicación y el sistema lo encuentre como un juego, se agregará automáticamente a la lista de juegos. Tenga en cuenta que esto no funciona para todas las aplicaciones de juegos.</string>
-    <string name="dynamic_mode_footer_dialer">Algunas funciones específicas del marcador, como "Contestar llamadas a través del altavoz" solo funcionarán con la aplicación de teléfono AOSP.</string>
 
 </resources>
