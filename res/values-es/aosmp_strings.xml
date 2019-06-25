@@ -22,7 +22,7 @@
     <string name="powermenu_title">Menu de apagado</string>
     <string name="quicksettings_title">Ajustes rapidos</string>
     <string name="statusbar_title">Barra de estado</string>
-    <string name="volume_title">Teclas de volumen</string></string>
+    <string name="volume_title">Teclas de volumen</string>
     <string name="notifications_title">Notificaciones</string>
 
     <!-- General strings -->
