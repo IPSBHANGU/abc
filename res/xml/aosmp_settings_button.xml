@@ -20,7 +20,7 @@
 
     <PreferenceScreen
         android:key="volume_key"
-        android:fragment="com.ceibo.settings.fragments.VolumeKeySettings"
+        android:fragment="com.aosmp.settings.fragments.VolumeKeySettings"
         android:title="@string/volume_title" />
 
 </PreferenceScreen>
