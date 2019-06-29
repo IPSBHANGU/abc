@@ -28,6 +28,10 @@
 
     <!-- Others -->
     <string name="gesture_system_preference">AOSP gestures</string>
+    <string name="volkey_title">Volume keys</string>
+    <string name="doubletap_title">Double tap</string>
+    <string name="statusbar_icons_title">Icons</string>
+    <string name="notch_title">Notch</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -99,18 +103,18 @@
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 
-    <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
+    <!-- Double tap lockscreen to sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 
-    <!-- Double Tap-to-sleep statusbar -->
+    <!-- Double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Status bar</string>
-    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap status bar to put the device to sleep</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Statusbar tuner</string>
 	
 </resources>
