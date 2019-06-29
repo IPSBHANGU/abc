@@ -18,6 +18,10 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+	<PreferenceCategory
+		android:key="statusbar_icons_category"
+		android:title="@string/statusbar_icons_title">
+
 		<Preference
 				android:title="@string/statusbar_items_title" >
 					<intent android:action="android.intent.action.MAIN"
@@ -42,5 +46,13 @@
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="false"/>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="notch_category"
+		android:title="@string/notch_title">
+
+	</PreferenceCategory>
 
 </PreferenceScreen>
