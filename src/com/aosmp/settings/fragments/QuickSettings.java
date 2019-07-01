@@ -45,7 +45,7 @@ import com.android.internal.logging.nano.MetricsProto;
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         
-        addPreferencesFromResource(R.xml.qs_settings);        
+        addPreferencesFromResource(R.xml.aosmp_settings_quicksettings);        
 		ContentResolver resolver = getActivity().getContentResolver();
         
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);

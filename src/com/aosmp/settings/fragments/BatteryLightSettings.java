@@ -27,7 +27,7 @@ import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.extra.settings.preferences.SystemSettingSwitchPreference;
+import com.aosmp.settings.preferences.SystemSettingSwitchPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 

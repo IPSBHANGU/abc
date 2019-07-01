@@ -38,7 +38,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.custom.cutout.CutoutFullscreenController;
+import com.android.internal.util.aosmp.cutout.CutoutFullscreenController;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.applications.ApplicationsState;
