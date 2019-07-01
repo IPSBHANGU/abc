@@ -33,7 +33,7 @@
     <string name="statusbar_icons_title">Icons</string>
     <string name="notch_title">Notch</string>
     <string name="qs_actions_title">QS actions</string>
-    <string name="baterylight_title">Battery light</string>
+    <string name="batterylight_title">Battery light</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
