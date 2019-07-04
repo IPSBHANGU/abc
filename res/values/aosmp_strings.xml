@@ -27,7 +27,7 @@
     <string name="notifications_title">Notifications</string>
 
     <!-- Others -->
-    <string name="gesture_category_title">Gestures preference</string>
+    <string name="gestures_category_title">Gestures preference</string>
     <string name="volkey_title">Volume keys</string>
     <string name="doubletap_title">Double tap</string>
     <string name="statusbar_icons_title">Icons</string>
