@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="aosmp_settings_title">AOSmP Settings</string>
+    <string name="aosmp_settings_title">AOSmP settings</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -27,13 +27,15 @@
     <string name="notifications_title">Notifications</string>
 
     <!-- Others -->
-    <string name="gesture_system_preference">AOSP gestures</string>
+    <string name="gesture_category_title">Gestures preference</string>
     <string name="volkey_title">Volume keys</string>
     <string name="doubletap_title">Double tap</string>
     <string name="statusbar_icons_title">Icons</string>
     <string name="notch_title">Notch</string>
     <string name="qs_actions_title">QS actions</string>
     <string name="batterylight_title">Battery light</string>
+
+    <string name="gesture_system_preference">Android stock</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
