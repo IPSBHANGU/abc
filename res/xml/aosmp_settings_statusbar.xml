@@ -18,6 +18,12 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+       android:key="battery_style"
+       android:fragment="com.aosmp.settings.fragments.BatteryStyle"
+       android:title="@string/battery_style_title"
+       android:summary="@string/battery_style_summary" />
+
 	<PreferenceCategory
 		android:key="statusbar_icons_category"
 		android:title="@string/statusbar_icons_title">

@@ -34,7 +34,8 @@
     <string name="notch_title">Notch</string>
     <string name="qs_actions_title">QS actions</string>
     <string name="batterylight_title">Battery light</string>
-
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Change the style of the status bar battery icon</string>
     <string name="gesture_system_preference">Android stock</string>
 
     <!-- General strings -->
