@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.aosmp;
+package com.aosmp.settings.fragments;
 
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
