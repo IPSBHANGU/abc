@@ -567,6 +567,8 @@
     <string name="gaming_mode_headsup_summary">Bloquee todos los mensajes de advertencia excepto las llamadas.</string>
     <string name="gaming_mode_hardware_keys_title">Bloqueo de botones</string>
     <string name="gaming_mode_hardware_keys_summary">Desactiva los botones de hardware cuando el modo Gaming está activado.</string>
+    <string name="gaming_mode_gestures_title">Desactivar gestos</string>
+    <string name="gaming_mode_gestures_summary">Deshabilita la navegación por gestos cuando el modo Gaming está activado.</string>
     <string name="gaming_mode_brightness_title">Desactivar brillo automático</string>
     <string name="gaming_mode_brightness_summary">Bloquee el brillo de la pantalla cuando el modo Gaming esté activado.</string>
     <string name="gaming_mode_ringer_title">Timbre en modo Gaming</string>
