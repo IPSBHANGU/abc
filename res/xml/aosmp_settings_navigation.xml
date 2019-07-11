@@ -24,7 +24,8 @@
         android:title="@string/navigation_bar_enabled_title" />
 
     <Preference
-            android:title="@string/navbar_tuner_title" >
+            android:title="@string/navbar_tuner_title" 
+            android:summary="@string/navbar_tuner_summary" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />

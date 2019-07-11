@@ -23,7 +23,7 @@
     <string name="powermenu_title">Power menu</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="statusbar_title">Status bar</string>
-    <string name="volume_title">Volume</string>
+    <string name="volume_title">Volume keys</string>
     <string name="notifications_title">Notifications</string>
 
     <!-- Others -->
@@ -36,6 +36,7 @@
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Change the style of the status bar battery icon</string>
     <string name="gesture_system_preference">Android stock</string>
+    <string name="gesture_system_preference_summary">Full navigation gesture, swipe to screenshot, jump gesture</string>
     <string name="brightness_slider_title">Brightness slider</string>
 
     <!-- General strings -->
@@ -93,15 +94,15 @@
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Volume playback control</string>
+    <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
  	<!-- Volume rocker wake -->
-	<string name="volume_rocker_wake_title">Volume rocker wake</string>
+	<string name="volume_rocker_wake_title">Rocker wake</string>
 	<string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 
     <!-- Volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string>
+    <string name="volume_answer_call_title">Call answer</string>
     <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
 
     <!-- 4G icon -->
@@ -117,10 +118,12 @@
     <string name="double_tap_to_sleep_summary">Double tap status bar to put the device to sleep</string>
 
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="navbar_tuner_title">Navigation bar buttons</string>
+    <string name="navbar_tuner_summary">Edit and configure the navigation bar buttons </string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar tuner</string>
+    <string name="statusbar_items_summary">Show or hide some icons from statusbar</string>
 
     <!-- Notch behavior -->
     <string name="display_cutout_mode_title">Notch behavior</string>
@@ -220,8 +223,8 @@
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
 
 	<!-- Statusbar Clock -->
-    <string name="clock_style_category_title">Clock Settings</string>
-    <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
+    <string name="clock_style_category_title">Clock settings</string>
+    <string name="clock_style_category_summary">Clock and date customization</string>
     <string name="status_bar_clock_title">Clock settings</string>
     <string name="status_bar_clock_show">Show clock and date</string>
     <string name="status_bar_clock_style_title">Clock style</string>
