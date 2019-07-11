@@ -23,7 +23,7 @@
     <string name="powermenu_title">Menu de encendido</string>
     <string name="quicksettings_title">Ajutes rápidos</string>
     <string name="statusbar_title">Barra de estado</string>
-    <string name="volume_title">Volumen</string>
+    <string name="volume_title">Teclas de volumen</string>
     <string name="notifications_title">Notificaciones</string>
 
     <!-- Others -->
@@ -36,6 +36,7 @@
     <string name="battery_style_title">Estilos del icono de batería</string>
     <string name="battery_style_summary">Cambia el estilo de ícono de batería en la barra de estado</string>
     <string name="gesture_system_preference">Android stock</string>
+    <string name="gesture_system_preference_summary">Gestos de navegación completa, deslizar para capturar pantalla, gesto de salto</string>
     <string name="brightness_slider_title">Barra de brillo</string>
 
     <!-- General strings -->
@@ -118,9 +119,11 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Sintonizador de la barra de navegación</string>
+    <string name="navbar_tuner_summary">Edita y configurar los botones de la barra de navegación </string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Sintonizador de la barra de estado</string>
+    <string name="statusbar_items_summary">Muestra o oculta algunos íconos de la barra de estado</string>
 
     <!-- Notch behavior -->
     <string name="display_cutout_mode_title">Comportamiento de muesca</string>
