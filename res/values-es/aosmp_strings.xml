@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="aosmp_settings_title">Opciones de AOSmP</string>
+
+    <!-- Categories -->
+    <string name="button_title">Botones</string>
+    <string name="lockscreen_title">Pantalla de bloqueo</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="misc_title">Miscelaneos</string>
+    <string name="navbar_title">Barra de navegación</string>
+    <string name="powermenu_title">Menu de encendido</string>
+    <string name="quicksettings_title">Ajutes rápidos</string>
+    <string name="statusbar_title">Barra de estado</string>
+    <string name="volume_title">Volumen</string>
+    <string name="notifications_title">Notificaciones</string>
+
+    <!-- Others -->
+    <string name="gestures_category_title">Opciones de gestos</string>
+    <string name="doubletap_title">Doble toque</string>
+    <string name="statusbar_icons_title">Iconos</string>
+    <string name="notch_title">Muesca</string>
+    <string name="qs_actions_title">Acciones de ajustes rápidos</string>
+    <string name="batterylight_title">Luces de batería</string>
+    <string name="battery_style_title">Estilos del icono de batería</string>
+    <string name="battery_style_summary">Cambia el estilo de ícono de batería en la barra de estado</string>
+    <string name="gesture_system_preference">Android stock</string>
+    <string name="brightness_slider_title">Barra de brillo</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reiniciar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="press_color_to_apply">Presiona en el color para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Por defecto</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Mostrar la carga máxima relacionada al cargador, la temperatura y la temperatura de la batería en la pantalla de bloqueo durante la carga</string>
+
+    <!-- Facelock toggle -->
+    <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
+    <string name="face_auto_unlock_summary">Descartar bloqueo de pantalla después del desbloqueo facial</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Reinicio avanzado</string>
+    <string name="advanced_reboot_summary">Cuando está desbloqueado, incluya opciones en el menú de encendido para reiniciarse en la recuperación o el cargador de arranque</string>
+
+ 	<!-- Show VoLTE icon on statusbar -->
+	<string name="volte_icon_title">Icono VoLTE </string>
+	<string name="volte_icon_summary">Mostrar ícono VoLTE</string>
+
+	<!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Visibilidad de pantalla de bloqueo</string>
+    <string name="powermenu_lockscreen_summary">Habilite la capacidad de mostrar y usar el diálogo del menú de encendido mientras está en la pantalla de bloqueo</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Icono de datos deshabilitado</string>
+    <string name="data_disabled_icon_summary">Mostrar el signo de cruz al lado de la barra de señal cuando los datos están deshabilitados</string>
+
+    <!-- Torch Power gestures -->
+    <string name="torch_long_press_power_gesture_title">Encendido de linterna con boton de encendido</string>
+    <string name="torch_long_press_power_gesture_desc">Mantenga presionado el botón de encendido mientras la pantalla está apagada para encender la linterna</string>
+    <string name="torch_long_press_power_timeout_title">Apagar automáticamente la linterna</string>
+    <string name="torch_long_press_power_timeout_never">Nunca</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutos</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Portada de albúm</string>
+    <string name="media_art_summary">Habilitar la portada de albúm en pantalla de bloqueo</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Control de reproducción</string>
+    <string name="volume_rocker_music_controls_summary">Cuando la pantalla está apagada, mantenga presionadas las teclas de volumen para avanzar o retroceder las pistas de música</string>
+
+ 	<!-- Volume rocker wake -->
+	<string name="volume_rocker_wake_title">Despertar con los botones de volumen</string>
+	<string name="volume_rocker_wake_summary">Presionar cualquier botón de volumen despertará su dispositivo</string>
+
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">Responder con teclas de volumen</string>
+    <string name="volume_answer_call_summary">Contesta la llamada cuando se presionan las teclas de volumen</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Icono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar el ícono 4G en el junto a la señal en lugar de LTE</string>
+
+    <!-- Double tap lockscreen to sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Pantalla de bloqueo</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Pulse dos veces en el área de accesos directos del tercio superior o inferior de la pantalla de bloqueo para poner el dispositivo en suspensión</string>
+
+    <!-- Double tap statusbar to sleep -->
+    <string name="double_tap_to_sleep_title">Barra de estado</string>
+    <string name="double_tap_to_sleep_summary">Pulsa dos veces en la barra de estado para poner el dispositivo en suspensión</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Sintonizador de la barra de navegación</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Sintonizador de la barra de estado</string>
+
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Comportamiento de muesca</string>
+    <string name="display_cutout_mode_normal">Por defecto</string>
+    <string name="display_cutout_mode_hidden">Oculto</string>
+	
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones de pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar las aplicaciones a ignorar el espacio de muesca</string>	
+
+    <!-- Themes -->
+    <string name="theme_category_title">Opciones de tema</string>
+    <string name="disable_themes_installed_title">Los temas del sistema no están disponibles para evitar conflictos con Substratum. Desinstala si quieres usar estos temas.</string>
+    <string name="disable_accents_installed_title">El selector de acentos no está disponible para evitar conflictos con el Substratum. Desinstálalo si deseas utilizar el selector de acento.</string>
+    <string name="accent_picker_dialog_title">Seleccione un color de acento</string>
+    <string name="theme_accent_picker_title">Color de acento</string>
+    <string name="theme_accent_picker_summary">Seleccione el color del acento del tema del sistema</string>
+    <string name="theme_accent_picker_default">Por defecto</string>
+    <string name="accent_picker_material_colors">Paleta de colores materiales</string>
+    <string name="accent_picker_custom_colors">Colores solicitados por usuarios</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Despliegue rápido</string>
+    <string name="quick_pulldown_summary">Borde %1$s de la barra de estado despliega los Ajustes Rápidos</string>
+    <string name="quick_pulldown_summary_always">Mostrar siempre los Ajustes Rápidos en la barra de estado desplegable</string>
+    <string name="quick_pulldown_off">Deshabilitado</string>
+    <string name="quick_pulldown_left">Iziquierdo</string>
+    <string name="quick_pulldown_right">Derecho</string>
+    <string name="quick_pulldown_always">Siempre</string>
+	
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Desplegable inteligente</string>
+    <string name="smart_pulldown_summary">Abrir ajustes rápidos cuando hay notificaciones %1$s</string>
+    <string name="smart_pulldown_none_summary">Abrir ajustes rápidos cuando no hay notificaciones</string>
+    <string name="smart_pulldown_off">Deshabilitado</string>
+    <string name="smart_pulldown_none">No hay notificaciones</string>
+    <string name="smart_pulldown_dismissable">No descartables</string>
+    <string name="smart_pulldown_ongoing">No en curso</string>
+
+    <!-- Disable QS on lockscreen -->
+    <string name="lockscreen_qs_disabled_title">Desactivar los ajustes rápidos cuando el telefono está bloqueado</string>
+    <string name="lockscreen_qs_disabled_summary">Deshabilitar los ajustes rápidos expandibles en pantalla de bloqueo seguro</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Luz de carga de la batería</string>
+    <string name="battery_light_enable">Luz de bateria</string>
+    <string name="battery_light_allow_on_dnd_title">Luz de la batería en el modo No molestar</string>
+    <string name="battery_light_low_blinking_title">Luz intermitente en batería baja</string>
+    <string name="battery_light_cat">Luz de batería al cargar</string>
+    <string name="battery_light_low_color">Batería baja</string>
+    <string name="battery_light_medium_color">Batería media</string>
+    <string name="battery_light_full_color">Batería casi llena</string>
+    <string name="battery_light_reallyfull_color">Batería completa (100)</string>
+
+    <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_next">Al lado del ícono</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del ícono</string>
+
+    <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_port">Vertical</string>
+    <string name="status_bar_battery_style_q">Estilo de Q</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+	<string name="battery_style_dotted_circle">Círculo de puntos</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>	
+    
+	<!-- OnePlus navigation gestures -->
+    <string name="op_settings_title">Gestos de navegación OnePlus</string>
+    <string name="op_settings_summary">Usa los gestos de deslizar hacia abajo para navegar</string>
+    <string name="use_bottom_gesture_title">Habilitar gestos</string>
+    <string name="op_settings_info">La barra de navegación debe estar deshabilitada!\n\nGestos disponibles:\n\nAtrás\n- Deslizar hacia arriba en el lado izquierdo o derecho\n\nInicio\n- Deslizar desde el centro\n\nAplicaciones recientes\n- Desliza del centro hacia arriba y mantén presionado\n\nUltima aplicación\n- Dezlisa un tramo corto hacia arriba y mantén en el centro</string>    
+    <string name="gesture_swipe_length_title">Deslice la altura del gesto</string>
+    <string name="gesture_swipe_length_summary">Altura desde la parte inferior para deslizar</string>
+    <string name="gesture_action_timeout_title">Tiempo de esper al deslizar</string>
+    <string name="gesture_action_timeout_summary">Tiempo de espera antes de que comience la acción del gesto</string>
+    <string name="bottom_gestures_feedback_duration_title">Duración de la respuesta háptica</string>
+    <string name="unit_msec">ms</string>
+    <string name="unit_px">px</string>
+
+	<!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Barra deslizante de brillo</string>
+    <string name="qs_show_brightness_summary">Muestra una barra deslizante de brillo en el panel de ajustes rápidos</string>
+    <string name="qs_brightness_position_bottom_title">Barra deslizante de brillo en la parte inferior</string>
+    <string name="qs_brightness_position_bottom_summary">Mostrar la barra deslizante de brillo en la parte inferiord de los ajustes rápidos</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Botón de brillo adaptativo</string>
+    <string name="brightness_icon_summary">Mostrar botón de brillo adaptable</string>
+
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Botones de control de brillo</string>
+    <string name="brightness_side_buttons_summary">Mostrar botones para aumentar o disminuir el brillo</string>
+ 
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Habilitar la barra de navegación</string>
+
+	<!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Ajustes de reloj</string>
+    <string name="clock_style_category_summary">Sintonizador del reloj en la barra de estado</string>
+    <string name="status_bar_clock_title">Ajustes de reloj</string>
+    <string name="status_bar_clock_show">Mostrar el reloj y la fecha</string>
+    <string name="status_bar_clock_style_title">Estilo de reloj</string>
+    <string name="status_bar_clock_style_right">Derecha</string>
+    <string name="status_bar_clock_style_center">Centro</string>
+    <string name="status_bar_clock_style_left">Izquierda</string>
+    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="status_bar_am_pm_info">Reloj 24-hs habilitado</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Pequeño</string>
+    <string name="status_bar_am_pm_hidden">Oculto (Por defecto)</string>
+    <string name="clock_seconds_display">Mostrar segundos</string>
+    <string name="clock_date_display">Fecha</string>
+    <string name="clock_date_display_summary">Mostrar fecha personalizada antes del reloj</string>
+    <string name="clock_date_display_none">No mostrar</string>
+    <string name="clock_date_display_small">Tamaño de fuente pequeño</string>
+    <string name="clock_date_display_normal">Tamaño de fuente normal</string>
+    <string name="clock_date_style">Estilo de fecha</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúsculas</string>
+    <string name="clock_date_style_uppercase">Mayúsculas</string>
+    <string name="clock_date_format_custom">Formato personalizado java</string>
+    <string name="clock_date_format">Formato de fecha</string>
+    <string name="clock_date_string_edittext_title">Debe estar en formato de fecha como por ejemplo: MM/dd/aa</string>
+    <string name="clock_date_string_edittext_summary">Introducir cadena</string>
+
+    <!-- Network traffic Settings -->
+    <string name="traffic_title">Indicador del tráfico de datos</string>
+    <string name="traffic_category">Indicador del tráfico de datos</string>
+    <string name="traffic_summary">Mostrar la actividad de la transferencia de datos en la barra de estado</string> 
+    <string name="network_traffic_state_title">Mostrar indicador del trafico de datos</string>
+    <string name="network_traffic_autohide">Ocultar automáticamente</string>
+    <string name="network_traffic_autohide_summary">Ocultar el indicador cuando no haya actividad</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática de la actividad (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar las flechas del indicador de trafico</string>
+    <string name="network_traffic_state_summary">Mostrar la velocidad de carga y descarga</string>
+    <string name="network_traffic_location_title">Ubicación del indicador de tráfico</string>
+    <string name="network_traffic_location_summary">Coloque el indicador en la barra de estado o en el encabezado de ajustes rapidos expandido (recomendado para pantallas con cortes de muesca)</string>
+    <string name="network_traffic_statusbar">Barra de estado</string>
+	<string name="network_traffic_header">Encabezado de ajustes rapidos expandido</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Pasos de volumen</string>
+    <string name="volume_steps_summary">Personalizar pasos de volumen</string>
+    <string name="volume_steps_alarm_title">Pasos de volumen: Alarma</string>
+    <string name="volume_steps_dtmf_title">Pasos de volumen: DTMF</string>
+    <string name="volume_steps_music_title">Pasos de volumen: Media</string>
+    <string name="volume_steps_notification_title">Pasos de volumen: Notificaciones</string>
+    <string name="volume_steps_ring_title">Pasos de volumen: Sonido de llamada</string>
+    <string name="volume_steps_system_title">Pasos de volumen: Sistema</string>
+    <string name="volume_steps_voice_call_title">Pasos de volumen: Voz de llamada</string>
+    <string name="volume_steps_reset">Reset</string>
+
+    <!-- Running services icon toggle -->
+    <string name="qs_running_services_title">Icono de servicios en ejecución</string>
+    <string name="qs_running_services_summary">Habilitar el icono de servicios en ejecución en el pie de los ajustes rápidos</string>
+
+</resources>
