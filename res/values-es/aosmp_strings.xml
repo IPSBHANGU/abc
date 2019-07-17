@@ -143,7 +143,7 @@
     <string name="theme_accent_picker_summary">Seleccione el color del acento del tema del sistema</string>
     <string name="theme_accent_picker_default">Por defecto</string>
     <string name="accent_picker_material_colors">Paleta de colores materiales</string>
-    <string name="accent_picker_custom_colors">Colores solicitados por usuarios</string>
+    <string name="accent_picker_q_colors">Colores de Android Q</string>
 	<string name="qs_styles_dialog_title">Seleccione un estilo de ícono de los ajustes rápidos</string>
 
     <!-- Quick pull down-->

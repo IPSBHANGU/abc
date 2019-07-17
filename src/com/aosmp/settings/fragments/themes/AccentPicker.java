@@ -91,47 +91,50 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
         Button indigoAccent = mView.findViewById(R.id.indigoAccent);
         setAccent("5", indigoAccent);
 
+        Button pixelblueAccent = mView.findViewById(R.id.pixelblueAccent);
+        setAccent("6", pixelblueAccent);
+
         Button blueAccent = mView.findViewById(R.id.blueAccent);
-        setAccent("6", blueAccent);
+        setAccent("7", blueAccent);
 
         Button lightblueAccent = mView.findViewById(R.id.lightblueAccent);
-        setAccent("7", lightblueAccent);
+        setAccent("8", lightblueAccent);
 
         Button cyanAccent = mView.findViewById(R.id.cyanAccent);
-        setAccent("8", cyanAccent);
+        setAccent("9", cyanAccent);
 
         Button tealAccent = mView.findViewById(R.id.tealAccent);
-        setAccent("9", tealAccent);
+        setAccent("10", tealAccent);
 
         Button greenAccent = mView.findViewById(R.id.greenAccent);
-        setAccent("10", greenAccent);
+        setAccent("11", greenAccent);
 
         Button lightgreenAccent = mView.findViewById(R.id.lightgreenAccent);
-        setAccent("11", lightgreenAccent);
+        setAccent("12", lightgreenAccent);
 
         Button limeAccent = mView.findViewById(R.id.limeAccent);
-        setAccent("12", limeAccent);
+        setAccent("13", limeAccent);
 
         Button yellowAccent = mView.findViewById(R.id.yellowAccent);
-        setAccent("13", yellowAccent);
+        setAccent("14", yellowAccent);
 
         Button amberAccent = mView.findViewById(R.id.amberAccent);
-        setAccent("14", amberAccent);
+        setAccent("15", amberAccent);
 
         Button orangeAccent = mView.findViewById(R.id.orangeAccent);
-        setAccent("15", orangeAccent);
+        setAccent("16", orangeAccent);
 
         Button deeporangeAccent = mView.findViewById(R.id.deeporangeAccent);
-        setAccent("16", deeporangeAccent);
+        setAccent("17", deeporangeAccent);
 
         Button brownAccent = mView.findViewById(R.id.brownAccent);
-        setAccent("17", brownAccent);
+        setAccent("18", brownAccent);
 
         Button greyAccent = mView.findViewById(R.id.greyAccent);
-        setAccent("18", greyAccent);
+        setAccent("19", greyAccent);
 
         Button bluegreyAccent = mView.findViewById(R.id.bluegreyAccent);
-        setAccent("19", bluegreyAccent);
+        setAccent("20", bluegreyAccent);
 
         Button blackAccent = mView.findViewById(R.id.blackAccent);
         // Change the accent picker button depending on whether the dark/black theme is applied
@@ -142,31 +145,26 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
             blackAccent.setBackgroundColor(getResources().getColor(R.color.accent_picker_dark_accent));
             blackAccent.setBackgroundTintList(getResources().getColorStateList(R.color.accent_picker_dark_accent));
         }
-        setAccent("20", blackAccent);
+        setAccent("21", blackAccent);
 
-        Button userAccentOne = mView.findViewById(R.id.userAccentOne);
-        setAccent("22", userAccentOne);
+        Button qAccentOne = mView.findViewById(R.id.qAccentOne);
+        setAccent("23", qAccentOne);
 
-        Button userAccentTwo = mView.findViewById(R.id.userAccentTwo);
-        setAccent("23", userAccentTwo);
+        Button qAccentTwo = mView.findViewById(R.id.qAccentTwo);
+        setAccent("24", qAccentTwo);
 
-        Button userAccentThree = mView.findViewById(R.id.userAccentThree);
-        setAccent("24", userAccentThree);
+        Button qAccentThree = mView.findViewById(R.id.qAccentThree);
+        setAccent("25", qAccentThree);
 
-        Button userAccentFour = mView.findViewById(R.id.userAccentFour);
-        setAccent("25", userAccentFour);
+        Button qAccentFour = mView.findViewById(R.id.qAccentFour);
+        setAccent("26", qAccentFour);
 
-        Button userAccentFive = mView.findViewById(R.id.userAccentFive);
-        setAccent("26", userAccentFive);
+        Button qAccentFive = mView.findViewById(R.id.qAccentFive);
+        setAccent("27", qAccentFive);
 
-        Button userAccentSix = mView.findViewById(R.id.userAccentSix);
-        setAccent("27", userAccentSix);
-
-        Button userAccentSeven = mView.findViewById(R.id.userAccentSeven);
-        setAccent("28", userAccentSeven);
+        Button qAccentSix = mView.findViewById(R.id.qAccentSix);
+		setAccent("28", qAccentSix);
         
-	Button userAccentEight = mView.findViewById(R.id.userAccentEight);
-        setAccent("29", userAccentEight);
     }
 
     @Override
