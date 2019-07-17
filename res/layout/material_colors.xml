@@ -65,6 +65,15 @@
         android:background="#536DFE" />
 
     <Button
+        android:id="@+id/pixelblueAccent"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#4285F4" />
+
+    <Button
         android:id="@+id/blueAccent"
         android:layout_width="70dp"
         android:layout_height="70dp"
