@@ -63,10 +63,6 @@
     <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
     <string name="face_auto_unlock_summary">Descartar bloqueo de pantalla después del desbloqueo facial</string>
 
-    <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Reinicio avanzado</string>
-    <string name="advanced_reboot_summary">Cuando está desbloqueado, incluya opciones en el menú de encendido para reiniciarse en la recuperación o el cargador de arranque</string>
-
  	<!-- Show VoLTE icon on statusbar -->
 	<string name="volte_icon_title">Icono VoLTE </string>
 	<string name="volte_icon_summary">Mostrar ícono VoLTE</string>
