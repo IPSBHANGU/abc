@@ -43,7 +43,7 @@
 
 	<PreferenceCategory
 		android:key="lockscreen_clock_category"
-		android:title="@string/lockscreen_clock_title">
+		android:title="@string/lockscreen_clock_category">
 
 	<com.aosmp.settings.preferences.SystemSettingListPreference
         android:key="lockscreen_clock_selection"

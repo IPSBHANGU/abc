@@ -39,7 +39,7 @@
     <string name="gesture_system_preference_summary">Gestos de navegación completa, deslizar para capturar pantalla, gesto de salto</string>
     <string name="brightness_slider_title">Barra de brillo</string>
     <string name="power_menu_items_title">Iconos del menú de apagado</string>
-    <string name="lockscreen_clock_title">Reloj en la pantalla de bloqueo</string>
+    <string name="lockscreen_clock_category">Reloj en la pantalla de bloqueo</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
