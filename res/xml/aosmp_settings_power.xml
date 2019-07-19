@@ -18,6 +18,28 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+			android:key="powermenu_lockscreen"
+			android:title="@string/powermenu_lockscreen_title"
+			android:summary="@string/powermenu_lockscreen_summary"
+			android:defaultValue="false" />
+
+        <com.aosmp.settings.preferences.SystemSettingSwitchPreference
+			android:key="torch_long_press_power_gesture"
+			android:title="@string/torch_long_press_power_gesture_title"
+			android:summary="@string/torch_long_press_power_gesture_desc"
+			android:defaultValue="false" />
+
+		<ListPreference
+			android:key="torch_long_press_power_timeout"
+			android:dialogTitle="@string/torch_long_press_power_timeout_title"
+			android:title="@string/torch_long_press_power_timeout_title"
+			android:summary="%s"
+			android:entries="@array/torch_long_press_power_timeout_entries"
+			android:entryValues="@array/torch_long_press_power_timeout_values"
+			android:dependency="torch_long_press_power_gesture"
+			android:persistent="false" />
+
 	<PreferenceCategory
 		android:key="power_menu_items_category"
 		android:title="@string/power_menu_items_title">
@@ -68,27 +90,5 @@
 			android:defaultValue="false" />
 
 	</PreferenceCategory>
-
-        <com.aosmp.settings.preferences.SystemSettingSwitchPreference
-			android:key="powermenu_lockscreen"
-			android:title="@string/powermenu_lockscreen_title"
-			android:summary="@string/powermenu_lockscreen_summary"
-			android:defaultValue="false" />
-
-        <com.aosmp.settings.preferences.SystemSettingSwitchPreference
-			android:key="torch_long_press_power_gesture"
-			android:title="@string/torch_long_press_power_gesture_title"
-			android:summary="@string/torch_long_press_power_gesture_desc"
-			android:defaultValue="false" />
-
-		<ListPreference
-			android:key="torch_long_press_power_timeout"
-			android:dialogTitle="@string/torch_long_press_power_timeout_title"
-			android:title="@string/torch_long_press_power_timeout_title"
-			android:summary="%s"
-			android:entries="@array/torch_long_press_power_timeout_entries"
-			android:entryValues="@array/torch_long_press_power_timeout_values"
-			android:dependency="torch_long_press_power_gesture"
-			android:persistent="false" />
 
 </PreferenceScreen>
