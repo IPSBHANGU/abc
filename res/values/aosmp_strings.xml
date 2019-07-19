@@ -39,6 +39,7 @@
     <string name="gesture_system_preference_summary">Full navigation gesture, swipe to screenshot, jump gesture</string>
     <string name="brightness_slider_title">Brightness slider</string>
     <string name="power_menu_items_title">Power menu icons</string>
+    <string name="lockscreen_clock_title">Lockscreen clock widget</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

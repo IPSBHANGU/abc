@@ -18,25 +18,6 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-	<com.aosmp.settings.preferences.SystemSettingListPreference
-        android:key="lockscreen_clock_selection"
-        android:title="@string/lockscreen_clock_selection_title"
-        android:entries="@array/lockscreen_clock_selection_entries"
-        android:entryValues="@array/lockscreen_clock_selection_values"
-        android:defaultValue="0" />
-
-	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_clock"
-        android:title="@string/lockscreen_clock_title"
-        android:summary="@string/lockscreen_clock_summary"
-        android:defaultValue="true" />
-
-	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_info"
-        android:title="@string/lockscreen_info_title"
-        android:summary="@string/lockscreen_info_summary"
-        android:defaultValue="true" />
-
     <Preference
         android:key="lock_visualizer"
         android:fragment="com.aosmp.settings.fragments.LockVisualizer"
@@ -59,5 +40,30 @@
         android:title="@string/media_art_title"
         android:summary="@string/media_art_summary"
         android:defaultValue="true" />
+
+	<PreferenceCategory
+		android:key="lockscreen_clock_category"
+		android:title="@string/lockscreen_clock_title">
+
+	<com.aosmp.settings.preferences.SystemSettingListPreference
+        android:key="lockscreen_clock_selection"
+        android:title="@string/lockscreen_clock_selection_title"
+        android:entries="@array/lockscreen_clock_selection_entries"
+        android:entryValues="@array/lockscreen_clock_selection_values"
+        android:defaultValue="0" />
+
+	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_clock"
+        android:title="@string/lockscreen_clock_title"
+        android:summary="@string/lockscreen_clock_summary"
+        android:defaultValue="true" />
+
+	<com.aosmp.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_info"
+        android:title="@string/lockscreen_info_title"
+        android:summary="@string/lockscreen_info_summary"
+        android:defaultValue="true" />
+
+	</PreferenceCategory>
 
 </PreferenceScreen>
