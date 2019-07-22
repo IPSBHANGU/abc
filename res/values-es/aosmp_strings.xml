@@ -25,6 +25,7 @@
     <string name="statusbar_title">Barra de estado</string>
     <string name="volume_title">Teclas de volumen</string>
     <string name="notifications_title">Notificaciones</string>
+    <string name="recents_title">Recientes</string>
 
     <!-- Others -->
     <string name="gestures_category_title">Opciones de gestos</string>
