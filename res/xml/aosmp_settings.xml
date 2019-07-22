@@ -73,6 +73,13 @@
             android:fragment="com.aosmp.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
+        <!-- Recents -->
+        <Preference
+            android:key="recents_category"
+            android:title="@string/recents_title"
+            android:fragment="com.aosmp.settings.fragments.RecentsSettings"
+            android:icon="@drawable/ic_settings_recents"/>
+
         <!-- Misc -->
         <Preference
             android:key="misc_category"

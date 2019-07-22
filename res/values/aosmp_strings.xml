@@ -25,6 +25,7 @@
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume keys</string>
     <string name="notifications_title">Notifications</string>
+    <string name="recents_title">Recents</string>
 
     <!-- Others -->
     <string name="gestures_category_title">Gestures preference</string>
