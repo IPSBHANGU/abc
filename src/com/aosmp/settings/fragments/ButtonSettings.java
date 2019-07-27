@@ -62,7 +62,7 @@ import com.aosmp.settings.preferences.CustomSeekBarPreference;
         }
     }
 
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mVolumeKeyCursorControl) {
             String volumeKeyCursorControl = (String) objValue;
@@ -74,10 +74,8 @@ import com.aosmp.settings.preferences.CustomSeekBarPreference;
             mVolumeKeyCursorControl
                     .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
             return true;                   
-        } else {
-            return false;
 		}
-        return true;
+        return false;
     }
 
     @Override
