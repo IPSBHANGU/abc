@@ -43,6 +43,7 @@
     <string name="lockscreen_clock_category">Lockscreen clock widget</string>
     <string name="oreo_recents_category">Oreo recents style</string>
     <string name="weather_category">Weather indicator</string>
+    <string name="others_category">Others</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
