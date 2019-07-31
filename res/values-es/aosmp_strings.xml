@@ -471,4 +471,21 @@
     <string name="less_notification_sounds_1m">Cada minuto</string>
     <string name="less_notification_sounds_2m">Cada 2 minutos</string>
 
+    <!-- Custom carrier label and position -->
+    <string name="carrier_category">Nombre de operadora</string>
+    <string name="carrier_label_settings_summary">Personaliza el nombre de operadora</string>
+    <string name="custom_carrier_label_title">Nombre de operadora personalizado</string>
+    <string name="custom_carrier_label_explain">Por favor, introduzca una nueva etiqueta. Déjelo en blanco para volver a la etiqueta stock.</string>
+    <string name="custom_carrier_label_notset">Etiqueta personalizada no establecida actualmente</string>
+    <string name="show_carrier_title">Nombre de operadora</string>
+    <string name="show_carrier_disabled">Deshabilitado</string>
+    <string name="show_carrier_keyguard">Solo en pantalla de bloqueo</string>
+    <string name="show_carrier_statusbar">Solo en la barra de estado</string>
+    <string name="show_carrier_enabled">Pantalla de bloqueo y barra de estado</string>
+
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Ocultar barra de estado</string>
+    <string name="hide_lockscreen_status_bar_summary">Toque la barra de estado para activar su visibilidad</string>
+
+
 </resources>
