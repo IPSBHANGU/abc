@@ -125,10 +125,6 @@
     <string name="double_tap_to_sleep_title">Status bar</string>
     <string name="double_tap_to_sleep_summary">Double tap status bar to put the device to sleep</string>
 
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navigation bar buttons</string>
-    <string name="navbar_tuner_summary">Edit and configure the navigation bar buttons </string>
-
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar tuner</string>
     <string name="statusbar_items_summary">Show or hide some icons from statusbar</string>
@@ -228,9 +224,6 @@
     <!-- Quick Settings brightness side buttons -->
     <string name="brightness_side_buttons_title">Brightness control buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
- 
-    <!-- Toggle navigation bar -->
-    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
 
 	<!-- Statusbar Clock -->
     <string name="clock_style_category_title">Clock settings</string>
