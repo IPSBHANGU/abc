@@ -20,7 +20,7 @@
     <string name="gestures_title">Gestos</string>
     <string name="misc_title">Miscelaneos</string>
     <string name="navigation_bar_title">Barra de navegación</string>
-    <string name="powermenu_title">Menu de encendido</string>
+    <string name="powermenu_title">Menú de encendido</string>
     <string name="quicksettings_title">Ajustes rápidos</string>
     <string name="statusbar_title">Barra de estado</string>
     <string name="volume_title">Teclas de volumen</string>
@@ -310,7 +310,7 @@
     <string name="screen_state_toggles_location_title">Ubicación</string>
     <string name="screen_state_toggles_twog">Cambiar a 2G</string>
     <string name="screen_state_toggles_twog_summary">El modo de red cambiará a 2G con la pantalla apagada</string>
-    <string name="screen_state_toggles_threeg">Cambiar a 2G</string>
+    <string name="screen_state_toggles_threeg">Cambiar a 3G</string>
     <string name="screen_state_toggles_threeg_summary">El modo de red cambiará a 3G con la pantalla apagada</string>    
     <string name="screen_state_toggles_gps">Desactivar el GPS</string>
     <string name="screen_state_toggles_gps_summary">El servicio de localización basado en GPS se desactivará con la pantalla apagada</string>
