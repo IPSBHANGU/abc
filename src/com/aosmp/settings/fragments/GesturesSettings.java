@@ -34,7 +34,7 @@ import java.util.List;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class GesturesSettings extends SettingsPreferenceFragment, Indexable {
+public class GesturesSettings extends SettingsPreferenceFragment implements Indexable {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
